@@ -1,0 +1,114 @@
+#hbackimg{
+    margin: 0px;
+    padding: 0px;
+    height: 500px;
+    display:flex;
+    justify-content: center;  
+    align-items: center;
+    background-image: url(images/b3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+#hbackimg>h3 {
+    padding: 5px;
+    color: aliceblue;
+    height: 120px;
+    width:580px;
+    border-radius: 15px;
+    box-shadow: 2px 4px 8px rgb(68,67,67);
+    background-color: rgb(55, 49, 49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 80%;
+}
+.navigationbar ul{
+    list-style-type:none;
+    background-color: rgb(58, 56, 56);
+    overflow: hidden;
+}
+.navigationbar a{
+    color: white;
+    text-decoration: none;
+    display:block;
+    text-align: center;
+   padding: 10px;
+}
+.navigationbar a:hover{
+    background-color: rgb(13, 12, 12);
+}
+.navigationbar li{
+    float: left;
+}
+.navigationbar{
+    margin: 0px;
+}
+.header{
+    margin: 0px;
+    padding: 0px;
+    position:fixed;
+    box-sizing: border-box;
+    width: 100%;
+   /* background-color: aliceblue;*/
+}
+.frvid{
+    height: 200px;
+    width: 400px;
+    
+    border-radius: 7px;    
+}
+.frvidd{
+    padding: 5px;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    /*border: 2px solid black;*/
+    margin: 15px;
+    border-radius: 13px;
+    flex-wrap: wrap;
+   /* background-color:rgb(242,225,253); */
+    transition: transform 0.5s ease;
+    background-color: aliceblue;
+}
+.frvidd:hover{
+    transform: scale(1.2);
+    display: block; 
+}
+main>.sec2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: 400px;
+    overflow: auto;
+    scrollbar-width: none;
+}
+button {
+     background-color: #007bff; 
+     color: white;             
+    border: none;            
+     border-radius: 5px;      
+     padding: 10px 20px;      
+    font-size: 16px;         
+    cursor: pointer; 
+      }
+      
+body{
+    background-color: rgb(135, 231, 200)
+    }
+main div p{
+    color: rgb(46, 45, 45);
+    }
+ .tt{
+    font-family: 'Sofia';
+    color: rgb(245,243,160);
+    size:10px;
+    text-shadow: 1px 1px 1px rgb(0,0,0);
+ }
+ body{
+    margin: 0;
+ }
+ #login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
